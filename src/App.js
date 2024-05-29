@@ -1,8 +1,14 @@
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SideBar from "./components/sideBar/SideBar";
 import Home from "./components/home/Home";
 import Manage from "./components/manage/Manage";
 import "./App.css";
+
+
+import logo from './logo.svg';
+import './App.css';
+import Header from './Header/Header';
 
 
 function App() {
@@ -23,6 +29,7 @@ function App() {
   ];
 
   return (
+
     <Router>
       <div className="App">
           <SideBar menuItems={menuItems} accountTitles={accountTitles} />
@@ -32,6 +39,12 @@ function App() {
           </Routes>
       </div>
     </Router>
+=======
+    <div className="App">
+<Header/>
+     
+    </div>
+
   );
 }
 
