@@ -1,0 +1,44 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 260px;
+  background-color: rgb(47, 51, 73);
+  padding: 5px 20px;
+  color:#ACB0CC;;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.menuWrapper{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.menu-items,.menu-items-active {
+  padding: 10px 20px;
+  margin: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu-items:hover{
+
+    background-color:#7e7e7e;
+}
+
+.menu-items-active {
+  background: linear-gradient(45deg, #f70f7b, #70284a);
+  color: white;
+}
+
+h4{
+    padding: 0 20px;
+    color: #ACB0CC;
+}
