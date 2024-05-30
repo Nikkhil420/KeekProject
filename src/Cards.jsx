@@ -1,9 +1,17 @@
 import React from 'react';
 import './Cards.css';
+import './CreateOrganization.css';
+import CreateOrganization from './CreateOrganization';
 
 function App() {
   return (
-    <div className="App">
+<div className='Main'>
+
+  
+    <div className="mainCards">
+
+      <div className='CARDS'>
+
       <div className="card" id='c1'>
         <h3>Explore Report Generation Tool 🧑</h3>
         <p>Checkout to our report generation tool ...</p>
@@ -24,22 +32,24 @@ function App() {
         <p>Checkout to our myinfluencer feature ...</p>
         <button className="btn">📚 Influencers Base</button>
       </div>
+      
       <div className="card" id='c5'>
         <h3>Explore SaveList Feature 🙃</h3>
         <p>Checkout to our save list feature ...</p>
         <button className="btn">📁 Save List</button>
+      </div>
+
+        
       </div>
       <div className='end'>
         <h4 id='e1'>© 2024, Made with❤️ </h4>
         <h4 id='e2'>Socialveins</h4>
         <h4 id='e3' >Support</h4>
 
-        
       </div>
-
      
     </div>
-    
+    </div>
   );
 }
 

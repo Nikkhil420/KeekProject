@@ -5,7 +5,11 @@ $icon-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: end;
-    width: 70%;
+    width: 75%;
+    height: 15%;
+    position: fixed;
+    left: 20%;
+    z-index: 99;
 }
 
 .navbar {

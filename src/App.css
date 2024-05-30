@@ -1,5 +1,4 @@
 
-=======
 .App {
   text-align: center;
   display: flex;
@@ -7,6 +6,14 @@
   justify-content: end;
 }
 
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #1a1a2e;
+  padding-left: 17%;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -7,6 +7,7 @@ import MyProfile from './Components/MyProfile';
 import Chatbox from './Components/Chatbox';
 import MyProfileDropdown from './Components/Dropdown-menus/MyProfileDropdown/MyProfileDropdown';
 import AccountNotiDropdown from './Components/AccountNotiDropdown/AccountNotiDropdown';
+import { Outlet } from 'react-router-dom';
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -60,6 +61,7 @@ function Header() {
                 </div>
                 
             </nav>
+            <Outlet/>
         </header>
     );
 }
